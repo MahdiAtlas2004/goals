@@ -1,6 +1,9 @@
 import { type PropsWithChildren } from "react";
+
+// creating custom type for props
 type CourseGoalProps = PropsWithChildren<{
   title: string;
+  // setting type for onDelete function props
   onDelete: (id: number) => void;
   id: number;
 }>;

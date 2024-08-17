@@ -8,6 +8,7 @@ type HeaderProps = {
     src: string;
     alt: string;
   };
+  // ReactNode is type for html element within a component.
   children: ReactNode;
 };
 

@@ -20,6 +20,7 @@ export default function NewGoal({ onAddGoal }: NewGoalProps) {
     const enteredSummary = summary.current!.value;
     // reseting form after submission.
     event.currentTarget.reset();
+    //sending goal and summary to the App.tsx file using onAddGoal props function.
     onAddGoal(eneteredGoal, enteredSummary);
   }
 
